@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: cursive;
+        }
+        .home{
+            background:no-repeat center;
+            background-image:  url(back1.jpg),linear-gradient(to right,rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+            background-size: cover;
+            padding-bottom: 150px;
+            color: #fff;
+        }
+        ul > li{
+            margin: 20px;
+            font-weight: bolder;
+            font-size:20px ;
+            list-style: none;
+        }
+        .gallary{
+            display: flex;flex-direction: column;
+            background-color: rgb(88, 112, 194);
+        }
+        .sec{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .sec>div{
+            height: 400px;width: 250px;
+            margin: 20px;
+            border-radius: 10px;
+
+        }
+        .img-div{
+            /* background-color: rgb(36, 88, 88); */
+            background-image: linear-gradient(45deg, rgba(245, 70, 66, 0,0.73),rgba(8,83,156,0.74));
+
+            background-color: #a6d7dd;
+        }
+        .imgdiv{
+            background: url(image.jpg) no-repeat center;
+            background-size: cover;
+            height: 350px;
+            object-fit: cover; 
+            box-shadow: 5px 5px 4px grey;
+            margin:0 10px;
+
+        }
+        button{
+            height: 25px;
+            width: 100px;
+            border-radius: 0 15px 0 15px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(235, 179, 60);
+            font-weight: bolder;
+        }
+        button:hover{
+            background-color: #000;
+            color: #fff;
+        }
+        #btn:hover{
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div class="nav-container" style="height: 90px;background-color: rgb(94, 68, 12);margin-bottom: 100px;">
+            <div class="navbar" style="display: flex;justify-content:space-around;">
+                <div class="nav-brand"><p style="height: 70px; width: 250px;margin: 20px;">Logo</p></div>
+                <ul style="display: flex; ">
+                    <li>Items</li>
+                    <li>Items</li>
+                    <li>Items</li>
+                    <li>Items</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text" style="text-align: center;font-weight:bolder;">
+            <h1>Hello world</h1>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor et! Debitis?</p>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor et! Debitis? or et! Debitis?</p>
+            <button id="btn" style="border-radius:10px ; background-color: #88440c;height: 40px;width:130px ;color: #fff;">Click Me!</button>
+        </div>
+    </div>
+    <div class="gallary">
+        <h1 style="text-align: center; font-size: 30px;">Welcome our Gallary</h1>
+        <div class="gallary" style="display:flex;">
+            <div class="div-1 sec">
+                <div class="img-div" style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv"></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+                </div>
+                <div class="img-div"style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv" ></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+                </div>
+                <div class="img-div"style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv"></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+                </div>
+            </div><br>
+            <div class="div-2 sec">
+                <div class="img-div" style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv"></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+                </div>
+                <div class="img-div" style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv"></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+                </div>
+                <div class="img-div" style="display: flex;flex-direction: column;padding:10px;">
+                    <div class="imgdiv"></div>
+                    <div class="txt" style="text-align: center;">
+                        <h3>Image</h3>
+                        <p>hello this is image description</p>
+                        <button>Click Me!</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="font-family: 'Times New Roman';background-color: black;color: #fff;">
+        <h1 style="text-align: center;padding-top: 30px;">Footer section</h1>
+        <section style="display: flex;flex-wrap: wrap;justify-content: center; padding:0 5%;">
+            <div class="sec1">
+                <div>
+                    
+                    <ul>
+                        <li><h2>Sopport</h2></li>
+                        <li>Cantact us</li>
+                        <li>FAQ</li>
+                        <li>hellow</li>
+                        <li>world</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sec2">
+                <div style="text-align: left;">
+                    <ul>
+                    <li><h2>Sopport</h2></li>
+                    <li></li>
+                        <li>Cantact us</li>
+                        <li>FAQ</li>
+                        <li>hellow</li>
+                        <li>world</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sec3">
+                <div>
+                    <form action="">
+                        <input type="email" placeholder="Enter your e-mail Asddress" style="border: none;"><hr>
+                        <button style="height: 30px;width: 170px;background-color: rgb(66, 12, 12);color: #fff;border-radius: 10px;">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <style>
+        section{
+        }
+        section > div{
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+            border: 2px solid red;
+        }
+        .sec3 form hr{
+            width: 65%;
+            float: left;
+        }
+        .sec3 form{
+            padding: 50px 20px;
+        }
+        ::placeholder{
+            background-color: black;
+            color: #fff;
+            border: none;
+            padding: 20px 0;
+        }
+    </style>
+</body>
+</html>
